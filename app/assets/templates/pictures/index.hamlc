@@ -6,7 +6,7 @@
 %p{:"ng-show" => "isHomer()"} {{name}} simpson
 %p{:"ng-show" => "!isHomer()"} {{name}}
 
-.picture{:"ng-repeat" => "picture in pictures"}
+.picture{:"ng-repeat" => "picture in pictures"} 
   .row
     .span12
       %h2 {{picture.title}}
